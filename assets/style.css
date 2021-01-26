@@ -1,0 +1,71 @@
+:root {
+    --off-white: #FAF8F7;
+    --warm-black:#201E1C;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 62.5%;
+    font-family: 'Nunito', sans-serif;
+    background-image: linear-gradient(to left bottom, #8838f0, #7c2ee0, #7123d0, #6518c0, #5a0ab1);
+    height: 100vh;
+}
+
+h1 {
+    font-size: 1.8rem;
+    text-align: center;
+    color: var(--warm-black);
+}
+
+p {
+    text-align: center;
+    font-size: 1.4rem;
+    color: var(--off-white);
+}
+
+.form-container {
+    width: 100%;
+    margin: 10vh auto 0;
+}
+
+.form-container__social-networks, form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.form-container__social-networks {
+    margin: 20px 0;
+}
+.form-container__social-networks > a {
+    width: 190px;
+    height: 30px;
+    margin: 8px 0;
+    display: flex;    
+    font-size: 1.4rem;
+    vertical-align: text-bottom;
+}
+
+.form-container__social-networks span {
+    width: 40px;
+    background-color: aliceblue;
+    text-align: center;
+    border-radius: 4px 0 0 4px;
+    padding-top: 4px;
+}
+
+.form-container__social-networks p {
+    width: 150px;
+    text-align: center;
+    padding-top: 4px;
+}
+
+.btn {
+    border: 1px solid aliceblue;
+    border-radius: 4px;
+}
