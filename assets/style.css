@@ -23,11 +23,12 @@ html {
     color: var(--warm-black);
 }
 
-h2 {
+h3 {
     font-size: 1.4rem;
     color: var(--off-white);
     margin-bottom: 6px;
     text-align: center;
+    text-shadow: 1px 1px 1px var(--warm-black);
 }
 
 p {
@@ -36,9 +37,8 @@ p {
     color: var(--off-white);
 }
 
-.form-container {
-    width: 100%;
-    margin: 10vh auto 0;
+.container {
+    margin-top: 2%;
 }
 
 .form-container__social-networks, form {
@@ -69,8 +69,6 @@ p {
     font-size: 1.4rem;
     text-decoration: none;
 }
-
-
 
 .form-container__social-networks span {
     width: 40px;
